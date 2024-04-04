@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --color-1:#6610f2;
+}
+
+.bg-color-1{
+    background-color: var(--color-1);
+}
+.navigation{
+    position: fixed;
+    top:0;
+    z-index:99999;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-1);
+    color: white;
+    padding: 1rem;
+
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    z-index:10;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    border: none;
+    background-color: var(--color-1);
+    color: var(--color-1);
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+
+/* header  */
+.header{
+    margin-top: 10%;
+}
+@media screen  and (max-width:768px){
+    .header{
+        margin-top: 20%;
+    }
+}
+  .header .photo{
+    width: 100%;
+    height: auto;
+  }
+
+  #pills-tab .nav-link.active{
+    background-color: var(--color-1);
+  }
+
+  .title{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:var(--color-1);
+  }
+  .projects .photo{
+    width: 100%;
+    height: auto;
+  }
+
+  ul{
+    list-style-type:none;
+  }
+
+
+  .projects .nav-link{
+    width:150px !important;
+    margin:5% 0%;
+  }
+
+  .certificate{
+    width: 100%;
+    height: auto;
+  }
