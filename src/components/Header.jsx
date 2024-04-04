@@ -44,7 +44,7 @@ function Header() {
                        </div>
                     </div>
                     <div className='col-12 col-sm-5 col-md-4 col-lg-4'>
-                        <img src="public\prakash.JPG" alt="myphoto" className='photo' />
+                        <img src="prakash.JPG" alt="myphoto" className='photo' />
                     </div>
                 </div>
             </div>
