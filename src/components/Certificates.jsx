@@ -11,7 +11,7 @@ function Certificates() {
                 </div>
 
                 <div className="col-12 col-sm-6 col-md-4 col-lg-4">
-                    <img src="portfolio/Advanced_Computer_Vision_Tensorflow.jpg" className='certificate' alt="certificate-1"  />
+                    <img src="Advanced_Computer_Vision_Tensorflow.jpg" className='certificate' alt="certificate-1"  />
                 </div>
             </div>
         </div>
